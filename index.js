@@ -3,7 +3,7 @@ const gplay = require("google-play-scraper");
 const appstore = require("app-store-scraper");
 
 const app = express();
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
